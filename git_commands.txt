@@ -1,0 +1,86 @@
+
+SGA ASSIGNMENT - GIT COMMANDS AND EXPLANATIONS
+
+1. git init
+   Initializes a new local Git repository.
+
+2. git branch -M main
+   Renames the current branch to main.
+
+3. git status
+   Displays the current repository status and file changes.
+
+4. git add index.html about.html
+   Stages the HTML files for the initial commit.
+
+5. git commit -m "Initial commit with HTML files"
+   Records the initial project state in Git history.
+
+6. git add index.html
+   Stages the modified homepage.
+
+7. git commit -m "Update homepage content"
+   Creates the second commit after modifying index.html.
+
+8. git branch feature
+   Creates a new branch named feature.
+
+9. git switch feature
+   Switches to the feature branch.
+
+10. git add about.html
+    Stages changes made to the about page.
+
+11. git commit -m "Add feature information to about page"
+    Commits the feature branch changes.
+
+12. git switch main
+    Switches back to the main branch.
+
+13. git merge feature
+    Merges the feature branch into main.
+
+14. git log --oneline --graph --all --decorate
+    Displays the commit history with branch information.
+
+15. git status
+    Verifies the repository state after operations.
+
+16. git add .gitignore
+    Stages the .gitignore file.
+
+17. git commit -m "Add gitignore configuration"
+    Records the ignore configuration.
+
+18. mkdir temp
+    Creates the temporary folder ignored by Git.
+
+19. echo "Sample log" > test.log
+    Creates a sample log file to test the ignore rule.
+
+20. git add index.html
+    Stages an additional homepage change.
+
+21. git commit -m "Add temporary homepage content"
+    Records the additional commit used for the undo operation.
+
+22. git revert HEAD
+    Reverses the effects of the latest commit while preserving history.
+
+23. git log --oneline -5
+    Displays the latest five commits.
+
+24. git show HEAD
+    Displays details of the latest commit.
+
+25. git remote add origin YOUR_GITHUB_REPOSITORY_URL
+    Connects the local repository to the GitHub remote repository.
+
+26. git remote -v
+    Displays the configured remote repository URLs.
+
+27. git push -u origin main
+    Pushes the main branch to GitHub and sets the upstream branch.
+
+28. git push origin feature
+    Pushes the feature branch to GitHub.
